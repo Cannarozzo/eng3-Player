@@ -13,7 +13,9 @@ public class Player {
     }
 
     public void showPlayLists() {
-
+        for(PlayList pl : playLists){
+            System.out.println(pl);
+        }
     }
 
     public void newPlayList(String name) {
